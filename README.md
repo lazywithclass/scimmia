@@ -23,7 +23,7 @@ loop();
 ## Configuration
 
 Scimmia could be configured to accept a timeout in milliseconds, otherwise it will wake up
-approximately every hour. In this example it will wake up approximately every 3 seconds.
+randomly (at max in 1 hour). In this example it will wake up at max in 3 seconds.
 
 ```javascript
  require('scimmia')(3000);
