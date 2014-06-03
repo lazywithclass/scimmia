@@ -1,6 +1,6 @@
 # Scimmia
 
-Require the Chaos Monkey into your code.
+`require` the Chaos Monkey into your code.
 Credits to http://youtu.be/1CNcXeW8HdQ
 
 ## Usage
