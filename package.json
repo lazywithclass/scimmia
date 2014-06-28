@@ -2,6 +2,7 @@
   "name": "scimmia",
   "version": "0.0.1",
   "description": "require the chaos monkey in your code",
+  "main": "index.js",
   "scripts": {
     "start": "node example"
   },
