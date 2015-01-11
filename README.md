@@ -17,7 +17,6 @@ function loop() {
 }
 
 loop();
-
 ```
 
 ## Configuration
@@ -26,7 +25,7 @@ Scimmia could be configured to accept a timeout in milliseconds, otherwise it wi
 randomly (at max in 1 hour). In this example it will wake up at max in 3 seconds.
 
 ```javascript
- require('scimmia')(3000);
+require('scimmia')(3000);
 
 var count = 0;
 function loop() {
@@ -35,7 +34,6 @@ function loop() {
 }
 
 loop();
-  
 ```
 
 Scimmia could be configured to accept a timeout and a callback, which will be called just before
@@ -55,5 +53,4 @@ function loop() {
 }
 
 loop();
-
 ```
